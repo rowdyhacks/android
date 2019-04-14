@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Tripping Millennial</title>
+<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <link href="../css/bootstrap-4.2.1.css" rel="stylesheet" type="text/css">
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md main-navigation">
+            <div class="navbar-header animated fadeInUp">
+                <a class="navbar-brand" href="http://thetrippingmillennial.com">
+                    <img id="menu-image" src="./images/logo.png" alt="Logo">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1>The Tripping Millennial</h1>
+                <h3>Let us help you find your way</h3>
+                <video id="my-video" class="video-js" autoplay="true" controls="true" loop="true" preload="auto">
+                    <source src="CoverVideo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-sm-6">
+                <a href="#"><img class="apple" src="./images/app-store-logo.png" alt="Apple App Store"></a>    
+            </div>
+            <div class="col-sm-6">
+                <a href=""><img class="google" src="./images/Get_it_on_Google_play.png" alt="Google Play"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAZIeagKolNSfhLD_Vm8RUwclvOwt2ddbs",
+    authDomain: "thetrippingmillennial.firebaseapp.com",
+    databaseURL: "https://thetrippingmillennial.firebaseio.com",
+    projectId: "thetrippingmillennial",
+    storageBucket: "thetrippingmillennial.appspot.com",
+    messagingSenderId: "164707614052"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.2.1.js"></script>    
+</body>
+</html>
