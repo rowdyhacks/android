@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tripping Millennial</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="imgCoverPhoto">Cover Photo</string>
+    <string name="imgLarge">Interesting Places</string>
+    <string name="txtSplash">The Tripping Millennial</string>
+    <string name="title_activity_instagram">Instagram</string>
+    <string name="title_activity_food">Food</string>
+    <string name="title_activity_beer">Beer</string>
+    <string name="title_activity_shopping">Shopping</string>
+    <string name="title_activity_culture">Culture</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_local">Local</string>
+    <string name="title_activity_music">Music</string>
+    <string name="title_activity_test">Test</string>
+</resources>
